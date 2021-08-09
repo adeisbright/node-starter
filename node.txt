@@ -1,0 +1,66 @@
+Learning Node.js 
+================ 
+Node.js is an open source and cross platform javascript runtime environment 
+for writing server side applications , command line tools , and other types 
+of application that can run outside the browser.
+It runs a Google V8 engine. 
+A node app is run on a single process without creating new threads for every request.
+It provides a set of non-blocking I/O standard libraries. 
+Node libraries are also written using a non-blocking format. 
+When node performs an I/O operation like reading from the file system , communicating 
+with a database over a network , instead of blocking the thread and wasting CPU 
+cycles waiting , node will resume the operation when the response comes back.
+
+This allows node to handle thousands of concurrent connections  with a single 
+server without introducing the burden of managing thread concurrency , which could be a significant 
+source of bugs. 
+
+People love node because of the following :
+Front end engineers can move to back end easily , alot of useful libraries 
+To learn Node.js  , you should know the following javascript : 
+Lexical Structure
+Expressions
+Types
+Variables
+Functions
+this
+Arrow Functions
+Loops
+Scopes
+Arrays
+Template Literals
+Semicolons
+Strict Mode
+ECMAScript 6, 2016, 2017
+Asynchronous programming and Modular programming is essential to node.js 
+Asynchronous programming and callbacks
+Timers
+Promises
+Async and Await
+Closures
+The Event Loop
+
+Stating the difference between Javascript in the browser and Javascript in node 
+1. You control the environment in node unlike the browser where you don;t have control 
+2. You can use any of the javascript features 
+3. You have access to alot of APIs 
+4. Document and window is not available in node.js 
+V8 is the engine that powers javascript in Googles chrome browser. It is fast and highly performant
+
+Modern Javascript engine don't just interpret javascript , they compile it.
+Compiling javascript code makes it faster . V8 uses a Just in Time Compilation
+
+To run nodejs from the command line :
+Move into your project directory , and run node filename.js (node is a globally available command) 
+
+To exit from a running program , just press CTRL + C 
+How to use node.js REPL 
+====================== 
+REPL means Read , Evaluate , Print , Loop 
+To use Node REPL , just type node in the command line 
+
+Using the console 
+================= 
+Accept input from the command line 
+=================================== 
+You can make a node.js CLI program interactive using the readline module
