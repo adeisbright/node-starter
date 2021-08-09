@@ -1,0 +1,181 @@
+Back End Engineering Module 
+========================== 
+Module 1 
+----------
+Server : Hardware or Software ? 
+HTTP 
+   Methods 
+   Headers 
+   Status Code 
+Routing
+Security and Configuration
+Project 1.1 View into how server operates
+Homework #1 
+   Find out the engineering behind :
+   a) TicTok Server 
+   b) Whatsapp Server 
+   c) Amazon (ecommerce) Server 
+
+Module 2
+  1. Introduction to Server Side Programming with Node
+      A) Getting to meet Javascript in the server 
+      B) Why use Javascript on the server ? 
+      C) Node and the story behind it 
+        a) Explanation of node 
+        b) Its origin 
+           i) Ryan Dhal 
+           ii) Google's V8 
+        c) Its feature (Libraries , npm , and buoyant community) 
+        d) Advantage 
+        e) Difference between node and the browser    
+      D) Environment Setup 
+      E) Understanding nodejs jargons 
+        a) Process 
+           A program is an executable file like chrome.exe.
+           A process is an executing instance of a program.
+            When you double click on the Google Chrome icon on your computer, 
+            you start a process which will run the Google Chrome program.
+        b) Threads 
+            Thread is the smallest executable unit of a process. 
+            A process can have multiple threads with one main thread. 
+            In the example, a single thread could be displaying the current tab you’re in, 
+            and a different thread could be another tab.
+        c) Concurrency 
+        d) Blocking , and Non-blocking 
+        e) Synchronous and Asynchronous programming 
+        f) Callbacks 
+        g) Promises 
+        h) Async and Await 
+        i) Event Loop 
+    2. Javascripts concepts to know before learning nodejs 
+        a) Lexical Structure
+        b) Expressions
+        c) Types
+        d) Variables
+        e) Functions
+        f) this
+        g) Arrow Functions
+        h) Loops
+        i) Scopes
+        j) Arrays
+        k) Template Literals
+        l) Semicolons
+        m) Strict Mode
+        n) ECMAScript 6, 2016, 2017
+        o) Timers
+        p ) Async and Await
+        q ) Closures 
+    3) Hello , world program in nodejs 
+    4) Modular Programming ... modular-programming.js 
+       a) Creating a module 
+       b) Exporting a module 
+       c) Importing a module (Using CommonJs and AMD module system)
+       d) Using third party modules - Introduction to npm and yarn 
+          > Understanding npm - The standard package manager for node
+          > package.json 
+          > installing a module 
+          > uninstalling a module 
+          > publishing a module
+    5) Asynchronous Programming ... async-program.js
+       a) Understanding and Meaning 
+       b) Using callbacks 
+       c) Using Promises 
+       d) Using async/await 
+    6) Nodejs Globals  .... node-global.js 
+      a) console 
+      b) Timers  
+      c) Process 
+      d) module 
+      e) require 
+      f) __dirname 
+      g) __filename 
+    7) Node path module .... path.js
+    8) Node fs module 
+    9) Understanding Buffer , Stream , crypto module 
+    10) Node http module 
+    11) Project 1 :  A File Management module 
+    12) Project 2 :  A cryptographic module 
+    13) Project 3 :  A Simple server 
+    14) Project 4 :  A server with Routing Mechanism 
+    15) Project 5 :  A file upload mechanism 
+    16) Node Event Class 
+    17) Project 6 : A real estate management service 
+    18) Classwork 
+
+       i) Build a file manager 
+       ii ) Build an encryptor 
+       iii ) Build an OTP service 
+       iv ) Launch a server 
+
+
+Asynchrony in computer programming refers to the occurence of events independent of the main program flow 
+and ways to deal with such events. 
+These may be outside events such as the arrival of signals or actions instigated by a program that take place 
+concurrently  with program execution without the program blocking to wait for results.
+
+Scenarious for Asynchrony : 
+1. I/O Operations := Examples of I/O operations are network call , talking to a database , reading a file , 
+printing a document..
+Asynchronous program that performs I/O will come to a halt until the operation finishes.
+A more efficient way to handle I/O is to allow the program continue running while waiting for the response of I/O operation.
+
+2. When performing multiple operations in parallel then you should use Asynchrony e.g making a db call and then sending 
+emails to the contacts returned by the email 
+3. Long running events 
+
+
+Programs are executed in the CPU - But sometimes data is needed outside of this region. It could be located in 
+a database that can only be accessed via network communication or located in the disk.
+To do so , we can either wait for response before continuing execution or we can make the program asynchronous
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+Environment Setup
+Event Loop
+
+Node core modules
+
+File system modules
+
+Third party modules
+
+Express and its related technologies
+
+Designing and Developing API's with Express
+
+Multip-page App with Express
+
+Testing
+
+ Profiling , and Optimization
+
+ Security checks
+
+ Staging , and Deployment
+
+ Project 4.1 A simple web server
+
+ Project 4.2 Music Downloader App
+
+ Project 4.3 API (REST , and GraphQL) for Hotel Management System
+
+ Project 4.4 A realtime voting application
+
+ Project 4.5 A file collaboration tool
+
+ Project 4.6 A Content Management System with Emailing Feature
+
+ Project 4.7 Ecommerce Application
+
+ Homework #4
